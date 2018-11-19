@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root controller: :landing, action: :index
+  # get 'articles/index'
+  root controller: :articles, action: :index
 end
